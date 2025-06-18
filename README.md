@@ -1,4 +1,4 @@
-# NestJS Skeleton
+# NestJS Skeleton (Test Github Copilot to make us code)
 
 A scalable and modular NestJS starter with:
 - JWT authentication
