@@ -1,0 +1,40 @@
+{
+  "name": "nestjs-skeleton",
+  "version": "1.0.0",
+  "description": "NestJS Skeleton with RBAC, Auth, PostgreSQL, Swagger",
+  "scripts": {
+    "start": "nest start",
+    "start:dev": "nest start --watch",
+    "build": "nest build",
+    "test": "jest",
+    "typeorm": "ts-node -r tsconfig-paths/register ./node_modules/typeorm/cli.js -d ./ormconfig.json",
+    "seed": "ts-node -r tsconfig-paths/register src/seeds/seed.ts"
+  },
+  "dependencies": {
+    "@nestjs/common": "^9.0.0",
+    "@nestjs/config": "^2.3.0",
+    "@nestjs/core": "^9.0.0",
+    "@nestjs/jwt": "^9.0.0",
+    "@nestjs/passport": "^9.0.0",
+    "@nestjs/platform-express": "^9.0.0",
+    "@nestjs/swagger": "^7.0.0",
+    "@nestjs/typeorm": "^9.0.0",
+    "bcrypt": "^5.1.0",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.1",
+    "pg": "^8.9.0",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.8.0",
+    "typeorm": "^0.3.17"
+  },
+  "devDependencies": {
+    "@nestjs/testing": "^9.0.0",
+    "@types/bcrypt": "^5.0.0",
+    "@types/jest": "^29.5.0",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.0.0"
+  }
+}
